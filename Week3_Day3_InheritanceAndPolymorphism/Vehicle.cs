@@ -34,5 +34,13 @@ namespace Week3_Day3_InheritanceAndPolymorphism
         {
 
         }
+
+        public Vehicle (int seats, int carryingCapacity, string color, double movementSpeed)
+        {
+            this.seats = seats;
+            this.carryingCapacity = carryingCapacity;
+            this.color = color;
+            this.movementSpeed = movementSpeed;
+        }
     }
 }
