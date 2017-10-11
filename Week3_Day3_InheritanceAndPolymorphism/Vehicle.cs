@@ -14,6 +14,7 @@ namespace Week3_Day3_InheritanceAndPolymorphism
         private double movementSpeed;
         private float gearRatio;
         private float engineSize;
+        private double distanceTraveled;
 
         public int Seats
         {
@@ -30,6 +31,12 @@ namespace Week3_Day3_InheritanceAndPolymorphism
             get { return this.color; }
             set { this.color = value; }
         }
+
+        public double DistanceTraveled
+        {
+            get { return this.distanceTraveled; }
+        }
+
         public Vehicle()
         {
 
@@ -41,6 +48,11 @@ namespace Week3_Day3_InheritanceAndPolymorphism
             this.carryingCapacity = carryingCapacity;
             this.color = color;
             this.movementSpeed = movementSpeed;
+        }
+
+        public void Move()
+        {
+
         }
     }
 }
